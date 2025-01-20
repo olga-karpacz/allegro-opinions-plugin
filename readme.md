@@ -9,7 +9,7 @@ Allegro opinions plugin
 ## General info
 Plugin for Allegro API integration - displaying customers opinions. 
 
-![alt text](https://github.com/studio-afterglow/allegro-api-dev/blob/main/screenshot.png)
+![alt text](https://github.com/olga-karpacz/allegro-opinions-plugin/blob/main/screenshot.png)
 
 Using the shortcode [opinie_allegro] you can add a block with up to 6 latest customer reviews along with their rating and data. The reviews are presented in Polish with translated months, because Allegro is most often used by Polish customers.
 
