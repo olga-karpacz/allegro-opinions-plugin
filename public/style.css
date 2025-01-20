@@ -1,0 +1,64 @@
+.saallegroapi-allegro__widget-bg{
+    width: 100%;
+    background-color: #191970;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.saallegroapi-allegro__opinions-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    width: 95%;
+    margin: 0px auto;
+}
+.saallegroapi-allegro__opinion{
+    padding: 30px;
+}
+.saallegroapi-allegro__date{
+    font-size: 12px;
+    font-weight: 400;
+}
+.saallegroapi-allegro-star-rating{
+    font-family: Arial,Helvetica,sans-serif;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.saallegroapi-allegro-star-rating .elementor-star-full{
+    font-style: normal;
+}
+.saallegroapi-allegro__content{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 820px){
+    .saallegroapi-allegro__opinions-div{
+        grid-template-columns: 1fr;
+    }
+    .saallegroapi-allegro__opinion{
+        padding: 15px 30px;
+    }
+}
+
+/* Product rating */
+
+.saallegroapi-allegro-product__div{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.saallegroapi-product-rating{
+    margin-left: .75rem;
+    font-size: 19.2px;
+}
+.saallegroapi-allegro-product-star-rating{
+}
+.saallegroapi-allegro-product-star-rating .elementor-star-full{
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    color: #FFEA00;
+}
